@@ -10,5 +10,5 @@ type User = {
     id: number;
     name : String
 }
-const numberArr : number[] = [1,2,3,4];
+const numberArr1 : number[] = [1,2,3,4];
 const stringArr :string[] = ["a","b","c"];
