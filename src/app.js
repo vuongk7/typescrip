@@ -1,7 +1,5 @@
-"use strict";
-exports.__esModule = true;
-exports.myname = void 0;
-exports.myname = "lê quý vương";
+export{};
+var myname = "lê quý vương";
 var myAge = 2;
 var status = true;
 var myObj = {};
