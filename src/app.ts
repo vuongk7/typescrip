@@ -12,3 +12,13 @@ type User = {
 }
 const numberArr1 : number[] = [1,2,3,4];
 const stringArr :string[] = ["a","b","c"];
+
+
+type Product = {
+    id: number,
+    name: string
+}
+const getProducts = <T extends Product>(products: T[]) =>{
+    const result = products.map(item => `<div>${item.name}</div>`)
+}
+getProducts([{id: 1, name: "A"}, {id:2, name: "B"}]);
